@@ -9,6 +9,6 @@ export default class Contact {
     }
 
     display () {
-        return `${this.brand} - ${this.model} - ${this.km} - ${this.year}`
+        
     }
 }
