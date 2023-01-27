@@ -9,6 +9,14 @@ export default class Contact {
     }
 
     display () {
-        
+        return `<tr>
+        <td>${this.gender}</td>
+        <td>${this.lastname}</td>
+        <td>${this.firstname}</td>
+        <td>${this.birthdate}</td>
+        <td>${this.phoneNb}</td>
+        <td>${this.email}</td>
+        </tr>
+        `        
     }
 }
