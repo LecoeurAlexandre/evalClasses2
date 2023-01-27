@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" type="module" defer></script>
+    <title>Liste de contacts</title>
+</head>
+<body>
+    <h1>Travaux Pratique POO - Liste de contacts</h1>
+    <hr>
+    <p>Mise en application de la théorie POO en Javascript.</p>
+    <h2>Liste de contacts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Date de naissance</th>
+                <th>Téléphone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+    </table>
+        <div>
+            <h2>Ajouter contact</h2>
+            <div>
+                <input type="radio" id="mr" name="gender" value="Mr" checked>
+                <label for="mr">Mr</label>
+                <input type="radio" id="mme" name="gender" value="Mme">
+                <label for="mme">Mme</label><br>
+            </div>
+            <div>
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="nom" required>
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="prénom" required><br>  
+            </div>
+            <div>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <input type="number" id="phonetel" name="phonetel" placeholder="Téléphone" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <input type="submit" value="send">
+        </div>
+        
+    
+    <div id="display"></div>
+</body>
+</html>
